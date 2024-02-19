@@ -62,7 +62,8 @@ a {
   gap: 40px;
 }
 .contact-btn,
-.join-btn {
+.join-btn,
+.serv-btn {
   border: 2px solid;
   border-radius: 40px;
   border-color: var(--white);
@@ -72,7 +73,8 @@ a {
   color: var(--white);
   font-weight: 700;
 }
-.join-btn {
+.join-btn,
+.serv-btn {
   border: none;
   background-image: linear-gradient(
     to right,
@@ -106,7 +108,8 @@ a {
   margin: 149px 0 0 80px;
   width: 459px;
 }
-.main-btn {
+.main-btn,
+.about-btn {
   width: 215px;
   height: 48px;
   color: var(--bg);
@@ -188,23 +191,170 @@ main {
     rgba(33, 30, 46, 1)
   );
   border-radius: 90px;
-  margin: 88px 80px 0;
+  margin: 88px 80px 100px;
 }
-.vectors:nth-child(1) {
-  z-index: -1;
-  position: absolute;
-  top: 170px;
-  left: 1023px;
-  right: 0;
-  margin: 0;
+
+.hero {
+  background-image: url(img/Vector1.svg), url(img/Vector2.svg),
+    url(img/Vector3.svg), url(img/Vector4.svg);
+  background-repeat: no-repeat;
+  background-position: top 170px left 1023px, left 929px right 134px,
+    top 419.18px left 707.47px, top 274px left 2.5px;
 }
-.vectors:nth-child(2) {
-  z-index: -1;
-  position: absolute;
-  top: px;
-  right: 134px;
+.title1,
+.title2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.88px;
 }
-.vectors:nth-child(3) {
-  position: absolute;
-  top: 419.18px;
+.title2 {
+  font-weight: 300;
 }
+.intro-title,
+.about-title,
+.why-title,
+.how-title {
+  display: flex;
+  flex-direction: column;
+}
+.arrow1 {
+  position: relative;
+  left: -20px;
+}
+.intro-arrow,
+.why-arrow,
+.how-arrow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.why-arrow,
+.how-arrow {
+  gap: 20px;
+}
+.intro-text,
+.why-text,
+.how-text {
+  width: 656.1px;
+}
+.intro,
+.why,
+.how {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.about-photo {
+  height: 557px;
+}
+.about-text {
+  width: 633.96px;
+  margin: 56px 0 32px;
+}
+.about-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 100px 0;
+}
+
+.serv-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 20px 0 0;
+}
+.serv-text {
+  width: 250.78px;
+  font-size: 12px;
+  margin: 20px 0 35px 25px;
+  text-align: left;
+}
+.serv-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin: 100px 80px;
+  gap: 10px;
+}
+.serv {
+  width: 310.97px;
+  height: 511px;
+  border-radius: 40px;
+  border: none;
+  background-image: radial-gradient(
+    circle at center,
+    rgba(67, 61, 96, 1),
+    rgba(33, 30, 46, 1)
+  );
+}
+.serv-photo {
+  border: 14px solid;
+  border-color: rgba(14, 14, 14, 0.32);
+  border-radius: 100%;
+  margin-top: 23px;
+}
+.tech-title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  top: -200px;
+}
+.tech {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.scroll {
+  position: relative;
+  top: -150px;
+}
+.tech-photos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: -50px 80px 100px;
+  width: 1280px;
+}
+.process {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 125px 80px 100px;
+}
+.proc-text {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.26px;
+  margin-top: 31px;
+}
+.shape-text {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.contacts {
+  width: 1280px;
+  height: 1008px;
+  border-radius: 100px;
+  border: none;
+  background-image: radial-gradient(
+    circle at center,
+    rgba(64, 58, 95, 1),
+    rgba(33, 30, 46, 1)
+  );
+}
+.contacts-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 90px 0 65px;
+}
+.contacts-vector {
+  margin: 30px 0 20px;
+}
+form {
+}
+input
