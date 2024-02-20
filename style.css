@@ -337,7 +337,12 @@ main {
   gap: 16px;
 }
 .contacts {
-  width: 1105px;
+  /* width: 1066px; */
+  width: 1280px;
+  height: 1008px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 794px;
   border-radius: 100px;
   border: none;
@@ -346,15 +351,16 @@ main {
     rgba(64, 58, 95, 1),
     rgba(33, 30, 46, 1)
   );
-  padding: 90px 107px 85px 107px;
+  /* padding: 90px 107px 85px 107px; */
   text-align: center;
+  box-sizing: content-box;
 }
 .contacts-title {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   align-items: center;
-  margin: 0 0 65px;
+  margin: 90px 0 65px;
 }
 .contacts-vector {
   margin: 30px 0 20px;
@@ -362,13 +368,15 @@ main {
 
 input,
 textarea {
+  box-sizing: border-box;
   color: var(--white);
-  width: 484px;
+  width: 526px;
   height: 72px;
   border: 2px solid var(--white);
   border-radius: 40px;
   background-color: rgb(0, 0, 0, 0.01);
   padding: 0 0 0 42px;
+  font-family: var(--font);
 }
 
 .email,
@@ -389,12 +397,12 @@ textarea::placeholder {
 textarea {
   padding-top: 27px;
   resize: none;
-  width: 1020px;
-  height: 183px;
+  width: 1062px;
+  height: 210px;
 }
 .subject {
   padding: 0 0 0 42px;
-  width: 1020px;
+  width: 1062px;
 }
 .contacts-btn {
   margin-top: 50px;
