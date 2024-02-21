@@ -276,7 +276,7 @@ main {
 .serv-title {
   font-size: 24px;
   font-weight: 700;
-  margin: 20px 0 0;
+  margin: 20px 0 5px;
 }
 .serv-text {
   width: 250.78px;
@@ -469,4 +469,5 @@ textarea {
   font-size: 14px;
   font-weight: 700;
   line-height: 17.07px;
+  letter-spacing: 3px;
 }
