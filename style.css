@@ -436,7 +436,8 @@ textarea {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0 0 70px;
+  margin: 0 80px 70px;
+  width: 1280px;
 }
 .footer-logo {
   width: 186px;
