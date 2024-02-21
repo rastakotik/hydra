@@ -200,8 +200,8 @@ main {
   background-image: url(img/Vector1.svg), url(img/Vector2.svg),
     url(img/Vector3.svg), url(img/Vector4.svg);
   background-repeat: no-repeat;
-  background-position: top 170px left 1023px, left 929px right 134px,
-    top 419.18px left 707.47px, top 274px left 2.5px;
+  background-position: top 170px right, right 134px top, right top 420px,
+    left top 274px;
 }
 .title1,
 .title2 {
@@ -249,6 +249,10 @@ main {
 .about-photo {
   height: 557px;
 }
+
+.about-list {
+  margin-top: 50px;
+}
 .about-text {
   width: 633.96px;
   margin: 56px 0 32px;
@@ -259,7 +263,16 @@ main {
   justify-content: space-around;
   margin: 100px 0;
 }
-
+#about {
+  background-image: url(img/Vector7.svg), url(img/Vector8.svg);
+  background-repeat: no-repeat;
+  background-position: top 207.32px center, bottom 64px center;
+}
+.vector14 {
+  background-image: url(img/Vector14.svg);
+  background-repeat: no-repeat;
+  background-position: top 270px center;
+}
 .serv-title {
   font-size: 24px;
   font-weight: 700;
@@ -312,6 +325,9 @@ main {
   position: relative;
   top: -150px;
 }
+.tech-photo {
+  opacity: 70%;
+}
 .tech-photos {
   display: flex;
   flex-direction: row;
@@ -325,6 +341,11 @@ main {
   justify-content: space-around;
   margin: 125px 80px 100px;
 }
+.process {
+  background-image: url(img/Vector15.svg);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
 .proc-text {
   font-size: 24px;
   font-weight: 700;
@@ -337,13 +358,11 @@ main {
   gap: 16px;
 }
 .contacts {
-  /* width: 1066px; */
   width: 1280px;
   height: 1008px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 794px;
   border-radius: 100px;
   border: none;
   background-image: radial-gradient(
@@ -351,17 +370,21 @@ main {
     rgba(64, 58, 95, 1),
     rgba(33, 30, 46, 1)
   );
-  /* padding: 90px 107px 85px 107px; */
   text-align: center;
-  box-sizing: content-box;
+  margin: 0 0 193px 80px;
+}
+
+form {
+  width: 1066px;
+  height: 629px;
 }
 .contacts-title {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-evenly; */
   align-items: center;
   margin: 90px 0 65px;
 }
+
 .contacts-vector {
   margin: 30px 0 20px;
 }
@@ -378,14 +401,15 @@ textarea {
   padding: 0 0 0 42px;
   font-family: var(--font);
 }
-
-.email,
-.phone {
-  margin: 20px 0 30px;
+.first {
+  margin: 0 0 30px;
+}
+.email {
+  margin: 0 0 30px;
 }
 .first,
 .email {
-  margin-right: 10px;
+  margin-right: 5px;
 }
 .subject {
   margin-bottom: 35px;
@@ -404,17 +428,23 @@ textarea {
   padding: 0 0 0 42px;
   width: 1062px;
 }
+
 .contacts-btn {
-  margin-top: 50px;
+  margin: 50px 0 85px;
 }
 .foot {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 193px 0 70px;
+  margin: 0 0 70px;
 }
 .footer-logo {
   width: 186px;
+}
+.vector19 {
+  background-image: url(img/Vector19.svg), url(img/Vector18.svg);
+  background-repeat: no-repeat;
+  background-position: bottom 328px center, bottom 140px center;
 }
 .footer-menu,
 .footer-links,
